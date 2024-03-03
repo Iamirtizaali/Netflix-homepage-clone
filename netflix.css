@@ -1,21 +1,150 @@
 *{
     padding: 0;
     margin: 0;
-
 }
-body{
+.backgroundpic{
     background-image: url("netflix\ background\ image.jpg");
     height: 100vh;
     width: 100vw;
-    opacity: 0.9;
+    background-repeat: no-repeat;
+        /* background-image: linear-gradient(0,0,0); */
+    /* background-image: linear-gradient(4); */
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* filter: brightness(90%); */
+    
 }
 .navbar{
-    height: 100px;
-    background-color:antiquewhite;
+    height: 6em;
+    /* background-color:black; */
     width: 100%;
     display: flex;
     /* align-content: space-between; */
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    background-image: url("logo-removebg-preview.png");
+height: 100px;
+width: 200px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-left: 8em;
+margin-top: 2em;
 }
 .logo img{
-    height: 100px;
+    height: 5em;
+    padding-left: 11em;
+    background-image: none;
+    background-size: 0;
+}
+.signin{
+    
+/* background-color: aquamarine; */
+padding-right: 10em;
+}
+.signin button{
+    height: 30px;
+    width: 80px;
+    font-size: 1em;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 6px;
+}
+
+/* maiin body css */
+
+.main{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    /* background-color:blue; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.firstline{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.secondline{
+    margin-top: 15px;
+    font-size: 24px;
+}
+.thirdline{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.forthline{
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.forthline input{
+    height: 50px;
+    width: 370px;
+    font-size: 26px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    color:rgb(217, 210, 210);
+    background-color: rgb(52, 50, 50);
+}
+.forthline button{
+    height: 60px;
+    width: 170px;
+    font-size: 22px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 7px ;
+    color: white;
+}
+.tv{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    
+    border-top: 7px solid rgb(56, 55, 55);
+    /* border-bottom: 7px solid rgb(56, 55, 55); */
+}
+.enjoy{
+    color: white;
+}
+
+.enjoy h1{
+font-size: 4EM;
+line-height: 1.3;
+}
+.enjoy p{
+font-size: 1.5em;
+line-height: 1.5;
+}
+
+
+
+.tv li{
+    color: white;
+}
+
+.links{
+    height: 300px;
+    width: 200px;
+    padding-top: 40px;
+    margin-left: 80px;
+    /* background-color: aquamarine; */
+    /* border: 2px solid wheat; */
+}
+.links a{
+    display: block;
+    line-height: 2.7;
+    text-decoration: none;
+    color: rgb(211, 202, 202);
+    text-decoration: underline;
+    font-size: 18px;
 }
